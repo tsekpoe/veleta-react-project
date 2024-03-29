@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.cardContainer {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.check-circle-item {
+  margin-bottom: 15px;
+  padding-left: 35px;
+  background-image: url("src/assets/svg/check_icon.svg");
+  background-position: 0% 50%;
+  color: #0a3866;
+  font-size: 16px;
+  background-repeat: no-repeat;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
